@@ -1,0 +1,106 @@
+body{
+	background-color:red;
+
+	p{
+		color: #00f;
+	}
+}
+//Variables
+
+$primary-color:red;
+
+h1{
+	color: $primary-color;
+}
+h3{
+	color: $primary-color;
+}
+
+//Nesting
+
+$bg-color:#2c3e50;
+$hover-color:#16a065;
+$text-color:#ffffff;
+
+nav{
+	ul{
+		background:$bg-color;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+	}
+
+    li{
+    	display: inline-block;
+    }
+    a{
+    	color: $text-color;
+    	display: inline-block;
+    	padding:10px 16px;
+    	text-decoration: none;
+
+    }
+    a:hover{
+    	background:$hover-color;
+    }
+}
+
+//partials
+
+@import "profile";
+  p{
+	font-size: 24px;
+
+}
+
+//Extend/Inheritance
+
+.pannel{
+	border:3px solid dodgerblue;
+	background:orange;
+	margin:10px;
+}
+
+//Mixins
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+.little-pannel{
+	@extend .pannel;
+	@include border-radius(8px);
+	font-size: 12px;
+	padding:5px;
+}
+.big-pannel{
+	@extend .pannel;
+	@include border-radius(28px);
+	font-size: 22px;
+	padding:15px;
+}
+
+//Operations
+
+$button-background:yellow;
+$button-color:white;
+$button-padding:8px;
+
+.button{
+	background:$button-background;
+	border-radius:10px;
+	color: $button-color;
+	padding:$button-padding;
+	text-decoration: none;
+	display: inline-block;
+}
+.jumbo-button{
+   @extend .button;
+   padding:$button-padding+30;
+}
+.light-button{
+	@extend .button;
+	background:$button-background*1.5;
+}

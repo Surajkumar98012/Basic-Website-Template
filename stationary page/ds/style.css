@@ -1,0 +1,68 @@
+.edu{
+	background-image: url(image10.jpeg);
+	background-size: cover;
+	color: black;
+	background-origin: center;
+}
+.down{
+	background-image: url(jumbo1.jpeg);
+	background-size: cover;
+	background-origin: center;
+	color:white;
+	opacity: 90%;
+}
+.maincontainer{
+   position: relative;
+}
+.a{
+position: absolute;
+transform-style: preserve-3d;
+transition: all 1s ease; 
+}
+.a:hover{
+	transform: rotateY(180deg);
+}
+.front{
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.back{
+  backface-visibility: hidden;
+  position: absolute;
+  transform: rotateY(180deg);
+
+}
+.m:hover{
+	box-shadow: 0 0 13px orange;
+	border-radius: 27px;
+}
+#pop{
+	
+	box-sizing: border-box;
+	position: absolute;
+	top: -12px;
+	left: -12px;
+	width: 120px;
+	backface-visibility: hidden;
+	opacity: 90%;
+
+	}
+	                            /*<jumbo>*/
+#pop1{
+	box-sizing: border-box;
+	position: absolute;
+	top: -25px;
+	left: -10px;
+	width: 150px;
+	opacity: 95%;
+
+}
+#pop2{
+	box-sizing: border-box;
+	position: absolute;
+	top: -22px;
+	left: -23px;
+	width: 140px;
+	opacity: 90%;
+}

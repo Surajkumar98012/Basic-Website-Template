@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>practice</title>
+  <style>
+.mystyle {
+  width: 300px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+
+
+<h2>Bucky Java script tutorial</h2>
+
+<!-- <h1>The querySelector() method returns the first element that matches a specified CSS selector(s) in the document.</h1>
+<h2 class="example">A heading with class="example"</h2>
+<p class="example">A paragraph with class="example".</p>
+
+<p>Click the button to add a background color to the first element in the document with class="example".</p>
+
+<button onclick="myFunction()">Try it</button> -->
+
+
+
+
+
+
+
+
+
+
+
+<!--   <ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+<p>Click the button to append an item to the end of the list.</p>
+
+<button onclick="myFunction()">Try it</button> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>This property is useful to add, remove and toggle CSS classes on an element.</h1>
+
+<p>Click the button to add the "mystyle" class to DIV.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The classList property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+<div id="myDIV">
+I am a DIV element
+</div> -->
+
+
+
+
+
+
+<!-- <h1>The addEventListener() method attaches an event handler to the specified element.</h1>
+<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+
+<button id="myBtn">Try it</button>
+
+<p><strong>Note:</strong> The addEventListener() method is not supported in Internet Explorer 8 and earlier versions.</p>
+
+<p id="demo"></p> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+
+    /* function printx (argument) {
+       var x='hello'
+       document.write(x +' world!');
+    }
+
+    printx();*/
+
+
+
+
+
+
+   /* function greet(salutation){
+      document.write('Haydo!  '+ salutation);
+    }
+    greet('welcome');*/
+
+
+
+
+
+
+    /*var hello=function(){
+      return 'hii';
+    }
+
+    var x=hello();
+    document.write(x);*/
+
+
+
+
+
+
+
+
+   /* function echo(x){
+      console.log(x);
+    }
+
+echo ('co2');*/
+
+
+
+
+
+
+    /*  var reply=function(phrase){
+        return phrase;
+      }
+
+      var x=reply('how do you do?');
+      document.write(x);*/
+
+
+
+      /*function greet(x){
+        document.write('hello ' + x)
+      }
+
+      greet('suraj');*/
+
+
+
+
+   /*   var whereis=function(name){
+        return 'where is '+name+'?';
+
+      }
+      var x-whereis('jacky');
+      document.write(x);*/
+
+
+
+   /*  var log=function(x){
+         console.log()
+     }*/
+     /*console.log('hello world');*/
+
+  /* document.write(log("hello console"));*/
+
+
+
+
+/*
+   function shout(x){
+        document.write(x.repeat(5));
+   }
+   shout('fire!   ');*/
+
+
+
+/*var double=function  (name) {
+  return name+' and '+name;
+}
+
+var x=double('roy');
+document.write(x);
+*/
+
+
+
+
+
+
+/*var things=new Array(10);
+   for(i = 0;i <10; i++){
+     things[i]= prompt("Add something");
+   }
+
+   document.write(things[0]\n);*/
+
+
+
+/*function echos(a,b){
+  console.log(a + b);
+}
+echos("greek  ","co2");
+*/
+
+
+/*function lengths(str){
+    var n=str.length;
+    document.write(n);
+}
+
+lengths("sun");*/
+
+/*function toCase(str){
+    var a=str.toUpperCase();
+    var b=str.toLowerCase();
+    document.write(a + b);
+}
+
+toCase("maHatma");*/
+
+
+/*function shortcut(a,b){
+   var y=new Array(a,b);
+   document.write(a.split("",1)+b.split("",1));
+}
+
+shortcut("Artificial","Intiligience");
+*/
+
+/*function firstchar(x){
+  document.write(x.split("",2))
+}
+
+firstchar(" Rosa Parks");*/
+
+
+/*function indexOfIgnoreCase(a,b){
+   var res=new Array(a,b);
+   res.match(b);
+   res.toLowerCase().includes(b.toLowerCase());
+   res.toLowerCase().indexOf(b.toLowerCase())!== -1;
+}
+
+indexOfIgnoreCase("string","ring");*/
+
+
+
+
+/*function compareStrings (string1, string2, ignoreCase, useLocale) {
+    if (ignoreCase) {
+        if (useLocale) {
+            string1 = string1.toLocaleLowerCase();
+            string2 = string2.toLocaleLowerCase();
+        }
+        else {
+            string1 = string1.toLowerCase();
+            string2 = string2.toLowerCase();
+        }
+    }
+
+    return string1 === string2;
+}*/
+
+
+
+
+/*function normalize(){
+  var date=new Date();
+
+
+}
+
+normalize();
+*/
+/* var marks={
+    suraj:30,
+    sivam:40,
+    ram:45
+
+  }
+ console.log(marks);*/
+
+
+
+
+
+
+
+ //QUERY SELECTOR
+
+/* function myFunction() {
+  document.querySelector(".example").style.backgroundColor = "red";
+}*/
+
+
+
+
+
+
+
+
+
+//APENDCHILD AND CREATE TEXTNODE
+
+/*function myFunction() {
+  var node = document.createElement("LI");
+  var textnode = document.createTextNode("Water");
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
+}*/
+
+
+
+
+
+
+
+//CLASSLIST
+
+
+
+
+/*function myFunction() {
+  document.getElementById("myDIV").classList.add("mystyle");
+}*/
+
+
+
+
+
+//ADD EVENTLISTENER
+
+/*document.getElementById("myBtn").addEventListener("click", function(){
+  document.getElementById("demo").innerHTML = "Hello World";
+});*/
+
+
+
+
+
+
+
+/*function factorial(x)
+{
+
+  if (x === 0)
+ {
+    return 1;
+ }
+  return x * factorial(x-1);
+
+}
+console.log(factorial(5));
+
+
+function addTo(x){
+   if (x === 0)
+ {
+    return 0;}
+  return x+addTo(x-1);
+}
+console.log(addTo(3));
+*/
+
+
+
+/*function factorial(n){
+  let answer = 1;
+  if (n == 0 || n == 1){
+    return answer;
+  }else{
+    for(var i = n; i >= 1; i--){
+      answer = answer * i;
+    }
+    return answer;
+  }
+}
+answer=factorial(4);
+document.write(answer);*/
+
+
+
+
+
+//Date and time
+
+
+
+var today = new Date();
+var day = today.getDay();
+var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+console.log("Today is : " + daylist[day] + ".");
+var hour = today.getHours();
+var minute = today.getMinutes();
+var second = today.getSeconds();
+var prepand = (hour >= 12)? " PM ":" AM ";
+hour = (hour >= 12)? hour - 12: hour;
+if (hour===0 && prepand===' PM ')
+{
+if (minute===0 && second===0)
+{
+hour=12;
+prepand=' Noon';
+}
+else
+{
+hour=12;
+prepand=' PM';
+}
+}
+if (hour===0 && prepand===' AM ')
+{
+if (minute===0 && second===0)
+{
+hour=12;
+prepand=' Midnight';
+}
+else
+{
+hour=12;
+prepand=' AM';
+}
+}
+console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second);
+
+
+
+
+
+
+
+//area of triangle
+
+
+var side1 = 5;
+var side2 = 3;
+var side3 = 7;
+var s = (side1 + side2 + side3)/2;
+var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+console.log(area);
+
+
+
+
+//Reverse the no.
+
+function reverse_a_number(n)
+{
+  n = n + "";
+  return n.split("").reverse().join("");
+}
+console.log(reverse_a_number(85243));
+
+
+//Range
+
+
+
+
+
+
+var range = function(a,b)
+{
+  if (b-a === 2)
+  {
+    return [a + 1];
+  }
+  else
+  {
+    var list = range(a, b - 1);
+    list.push(b - 1);
+    return list;
+  }
+};
+
+console.log(range(2,9));
+
+
+
+//sum of element of array
+
+let arr = [1, 2, 3, 4, 5, 6]
+
+function add(arr) {
+    if (arr.length == 1) return arr[0] // base case
+    return arr[0] + add(arr.slice(1))  // recurse
+}
+console.log(add(arr))
+
+
+
+//random no. generator
+
+
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(randomInteger(45,59));
+
+
+
+//positive or negative integer
+
+
+function check(a,b){
+  if (a>=0 &&b>=0){
+    console.log("both " +a+ " and " +b+ " is positive");
+  }
+  else if (a>=0) {
+    console.log(a +" is positive");
+  }
+  else if (b>=0) {
+    console.log(b+ " is positive")
+  }
+  else {
+    console.log("both are negative");
+  }
+
+}
+
+check(-3,-5);
+
+
+
+//multiple of 3 and 7
+
+function test37(x)
+{
+  if (x % 3 == 0 || x % 7 == 0)
+  {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+console.log(test37(12));
+console.log(test37(19));
+
+
+
+//add of string
+
+
+function front_back3(str)
+ {
+  if (str.length>=3)
+   {
+   str_len = 3;
+
+  back = str.substring(str.length-3);
+   return back + str + back;
+ }
+   else
+     return false;
+ }
+console.log(front_back3("abc"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+</body>
+</html>
